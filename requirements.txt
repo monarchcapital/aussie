@@ -6,6 +6,14 @@ seaborn
 scikit-learn
 scipy
 statsmodels
-altair<5
+reportlab
+Pillow
+streamlit
+pandas
+numpy
+requests
+beautifulsoup4
+matplotlib
+python-dateutil
 
 
