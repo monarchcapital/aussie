@@ -16,7 +16,7 @@ SECTION9_FIGURES = []
 
 
 # --- Configuration ---
-st.set_page_config(layout="wide", page_title="SOFR Futures PCA Analyzer")
+st.set_page_config(layout="wide", page_title="AUSSIE Futures PCA Analyzer")
 
 # --- Helper Functions for Data Processing ---
 
@@ -977,12 +977,12 @@ def create_instrument_universe_table(factor_sensitivities_df, Sigma_Raw_df, misp
 
 # --- Streamlit Application Layout ---
 
-st.title("SOFR Futures PCA Analyzer")
+st.title("AUSSIE Futures PCA Analyzer")
 
 # --- Sidebar Inputs ---
 st.sidebar.header("1. Data Uploads")
 price_file = st.sidebar.file_uploader(
-    "Upload Historical Price Data (e.g., 'sofr rates.csv')", 
+    "Upload Historical Price Data (e.g., 'AUSSIE rates.csv')", 
     type=['csv'], 
     key='price_upload'
 )
