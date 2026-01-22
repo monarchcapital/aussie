@@ -6,5 +6,6 @@ seaborn
 scikit-learn
 scipy
 statsmodels
-altair
+altair<5
+
 
